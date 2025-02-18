@@ -17,10 +17,6 @@ nix-env -iA nixpkgs.myPackages
 
 echo "All packages have been installed."
 
-# Set up pure prompt
-
-oh-my-posh init zsh
-
 # Set up completions
 
 mkdir -p "$HOME/.zfunc"
