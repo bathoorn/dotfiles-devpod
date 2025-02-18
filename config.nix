@@ -12,6 +12,7 @@
         fzf
         lazygit
         kubectl
+        kubernetes-helm
         kubectx
         k9s
         fluxcd
