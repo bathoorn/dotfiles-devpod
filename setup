@@ -17,6 +17,8 @@ nix-env -iA nixpkgs.myPackages
 
 echo "All packages have been installed."
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # Set up completions
 
 mkdir -p "$HOME/.zfunc"
