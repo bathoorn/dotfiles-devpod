@@ -14,3 +14,5 @@ plugins=(git)
 
 
 # . "$HOME/.local/bin/env"
+
+eval "$(oh-my-posh init zsh)"
