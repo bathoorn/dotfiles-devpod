@@ -6,6 +6,7 @@
         zsh-completions
         neovim
         oh-my-posh
+        tmux
         fd
         ripgrep
         fzf
