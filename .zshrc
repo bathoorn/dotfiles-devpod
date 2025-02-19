@@ -15,4 +15,14 @@ plugins=(git)
 
 # . "$HOME/.local/bin/env"
 
+fpath+=~/.zfunc
+autoload -Uz compinit
+compinit -u
+
+zstyle ':completion:*' menu select
+
+
+# Example to install completion:
+# talosctl completion zsh > ~/.zfunc/_talosctl
+
 eval "$(oh-my-posh init zsh)"
